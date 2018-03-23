@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <title>Hong Ji Pyo</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <script src="https://code.jquery.com/jquery-1.12.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+</head>
+<body>
+    <div id="wrap">
+        <div class="back">
+            <img src="img/back2.png" alt="">
+            <div id="conts_group">
+                    <div class="slider">
+                    <div class="conts1">
+                        <p>-Responsive Web Site-</p>
+                        <p>Macerati</p>  
+                        <div class="op1">
+                            <p><a href="http://kisspianos.dothome.co.kr/macerati">Open Case ></a></p>
+                        </div>  
+                        <div class="work1">
+                            <p>TITLE</p>
+                            <p>Macerati</p>
+                            <p>START TIME</p>
+                            <p>2018. 03. 12</p>
+                            <p>END TIME</p>
+                            <p>2018. 03. 15</p>
+                        </div>                    
+                    </div>
+                    <div class="conts2">
+                        <p>-Adaptive Web Site-</p>
+                        <p>iPhone X</p>  
+                        <div class="op1">
+                            <p><a href="http://kisspianos.dothome.co.kr/iphonex">Open Case ></a></p>
+                        </div>  
+                        <div class="work1">
+                            <p>TITLE</p>
+                            <p>iPhone X</p>
+                            <p>START TIME</p>
+                            <p>2018. 03. 07</p>
+                            <p>END TIME</p>
+                            <p>2018. 03. 09</p>
+                        </div>                        
+                    </div>
+                    <div class="conts3">
+                        <p>-Mobile Web Site-</p>
+                        <p>Real Madrid</p>  
+                        <div class="op1">
+                            <p><a href="http://kisspianos.dothome.co.kr/realmadrid">Open Case ></a></p>
+                        </div>  
+                        <div class="work1">
+                            <p>TITLE</p>
+                            <p>Real Madrid</p>
+                            <p>START TIME</p>
+                            <p>2018. 03. 05</p>
+                            <p>END TIME</p>
+                            <p>2018. 03. 07</p>
+                        </div>                         
+                    </div>
+                    <div class="conts4">
+                            <p>UX / UI Design</p>                            
+                            <div class="op1">
+                                <p><a href="../page/ux.html">Open Case ></a></p>
+                            </div>  
+                            <div class="work2">
+                                <p>TITLE</p>
+                                <p>UX/UI Design</p>
+                                <p>START TIME</p>
+                                <p>2017. 12. 04</p>
+                                <p>END TIME</p>
+                                <p>2017. 12. 07</p>
+                            </div>                        
+                    </div>
+                    <div class="conts5">
+                        <p>The Other</p>                            
+                        <div class="op2">
+                            <p><a href="../page/other.html">Open Case ></a></p>
+                        </div>                                               
+                </div>
+                    </div>
+                    <div class="mark_group">
+                        <div class="mark1 hm">01</div>
+                        <div class="mark2 hm">02</div>
+                        <div class="mark3 hm">03</div>
+                        <div class="mark4 hm">04</div>
+                        <div class="mark5 hm">05</div>
+                    </div>
+                    <div class="remote">
+                        <a href="#" class="prev"><img src="img/arr1.png" alt=""></a>
+                        <a href="#"><img src="img/col.png" alt=""></a>
+                        <a href="#" class="next"><img src="img/arr2.png" alt=""></a>
+                    </div>
+                </div>
+    
+            </div>
+           
+            <div class="fo3">
+                <p><a href="index.html">Hong Ji Pyo</a></p>
+            </div>
+            <div class="fo4">
+                <p>Creative<br>Designer.</p>
+            </div>
+            <div class="fo5">
+                <ul>
+                    <li><a href="../page/ndex2.html">INTRO</a></li>
+                    <li><a href="../page/index3.html">PROFILE</a></li>
+                    <li><a href="../page/index4.html">WORK</a></li>
+                    <li><a href="../page/index5.html">ENDING</a></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+<script>
+    $(".next").click(function(){
+        var dis = $(".slider");
+        var mark1 = dis.css("top");
+        if(mark1 == "0px"){
+            $(".hm").css("display","none");
+            $(".mark2").fadeIn();
+            dis.animate({top:"-=800px"});
+        }
+        if(mark1 == "-800px"){
+            $(".hm").css("display","none");
+            $(".mark3").fadeIn();
+            dis.animate({top:"-=800px"});
+        }
+        if(mark1 == "-1600px"){
+            $(".hm").css("display","none");
+            $(".mark4").fadeIn();
+            dis.animate({top:"-=800px"});
+        }
+        if(mark1 == "-2400px"){
+            $(".hm").css("display","none");
+            $(".mark5").fadeIn();
+            dis.animate({top:"-=800px"});
+        }
+    });
+
+    $(".prev").click(function(){
+        var dis2 = $(".slider");
+        var mark2 = dis2.css("top");
+        if(mark2 == "-800px"){
+            $(".hm").css("display","none");
+            $(".mark1").fadeIn();
+            dis2.animate({top:"+=800px"});
+        }
+        if(mark2 == "-1600px"){
+            $(".hm").css("display","none");
+            $(".mark2").fadeIn();
+            dis2.animate({top:"+=800px"});
+        }
+        if(mark2 == "-2400px"){
+            $(".hm").css("display","none");
+            $(".mark3").fadeIn();
+            dis2.animate({top:"+=800px"});
+        }
+        if(mark2 == "-3200px"){
+            $(".hm").css("display","none");
+            $(".mark4").fadeIn();
+            dis2.animate({top:"+=800px"});
+        }
+
+    });
+
+</script>
+</html>

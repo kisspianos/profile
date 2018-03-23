@@ -1,0 +1,326 @@
+@charset "utf-8";
+
+#wrap{    
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+.back{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.back>img{
+    width: 100%;
+    height: 100%;
+}
+.fo3{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+.fo3>p>a{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c39ae;
+    letter-spacing: -1px;
+}
+.fo4{
+    position: absolute;
+    top: 170px;
+    left: 70px;
+}
+.fo4>p{
+    font-size: 60px;
+    font-weight: 600;
+}
+.fo5{
+    position: absolute;
+    top: 550px;
+    left: 70px;
+}
+.fo5 a{
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 10px;    
+}
+.fo5>ul>li>a:hover{
+    color: #5e6be6; 
+}
+#conts_group{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width:1300px;
+    height:800px;
+    overflow:hidden;
+}
+.conts1{
+    position: relative;
+    width:100%;
+    height:800px;
+    background: url("../img/backg1.png") no-repeat center / cover;
+}
+.conts2{
+    position: relative;
+    width:100%;
+    height:800px;
+    background: url("../img/backg2.png") no-repeat center / cover;
+}
+.conts3{
+    position: relative;
+    width:100%;
+    height:800px;
+    background: url("../img/backg3.png") no-repeat center / cover;
+}
+.conts4{
+    position: relative;
+    width:100%;
+    height:800px;
+    background: url("../img/backg4.png") no-repeat center / cover;
+}
+.conts5{
+    position: relative;
+    width:100%;
+    height:800px;
+    background: url("../img/backg5.png") no-repeat center / cover;
+}
+
+.slider{
+    position: relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:3200px;
+}
+
+.remote{
+    position: absolute;
+    width:50px;
+    height:150px;
+    top:350px;
+    left:10px;
+    z-index:99;
+    background: #fff;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+}
+.remote a{
+    position: relative;
+}
+.remote img{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.hm{
+    display:none;
+}
+.mark1,.mark2,.mark3,.mark4,.mark5{
+    position: absolute;
+    left:0px;
+    bottom:50px;
+    font-size:130px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:  3px 3px 20px rgba(0,0,0,0.5);
+    width:100px;
+    height:100px;
+    z-index:9999;    
+}
+.mark1{display:block;}
+
+.conts1>p{
+    position: relative;
+    top: 300px;
+    display: block;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px 0;
+}
+.conts1>p:nth-child(1){
+    font-size: 30px;
+}
+.op1>p{
+    position: relative;
+    top: 320px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+.op1>p>a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px
+}
+.work1{
+    position: relative;
+    top: 105px;
+    left: 80px;
+    width: 150px;
+    height: 150px;
+}
+.work1>p{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2px 0;
+}
+.work1>p:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+.work1>p:nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+.work1>p:nth-child(6){
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+.conts2>p{
+    position: relative;
+    top: 300px;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-align: center;
+    padding: 10px 0;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+.conts2>p:nth-child(1){
+    font-size: 30px;
+}
+.conts2>.op1>p{
+    position: relative;
+    top: 320px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.1);
+}
+.conts3>p{
+    position: relative;
+    top: 300px;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    text-align: center;
+    padding: 10px 0;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);    
+}
+.conts3>.op1>p{
+    position: relative;
+    top: 320px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 20px rgba(0,0,0,0.1);
+}
+.conts3>p:nth-child(1){
+    font-size: 30px;
+}
+.conts4>p{
+    position: relative;
+    top: 360px;
+    display: block;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px 0;
+}
+.work2{
+    position: relative;
+    top: 160px;
+    left: 80px;
+    width: 150px;
+    height: 150px;
+}
+.work2>p{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2px 0;
+}
+.work2>p:nth-child(2){
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+.work2>p:nth-child(4){
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+.work2>p:nth-child(6){
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 10px 0;
+}
+.conts4>.op1>p{
+    position: relative;
+    top: 370px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+.op1>p>a{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px
+}
+
+.conts5>p{
+    position: relative;
+    top: 345px;
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    text-align: center;
+    padding: 10px 0;
+}
+.op2>p{
+    position: relative;
+    top: 360px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid rgb(0, 0, 0);
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+.op2>p>a{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px
+}
